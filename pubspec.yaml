@@ -1,0 +1,31 @@
+name: linfood
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.1 <4.0.0" # Pastikan versi SDK kompatibel dengan dependensi
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.11
+  pdf: ^3.11.0
+  path_provider: ^2.0.15
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Menambahkan daftar aset untuk aplikasi
+  assets:
+    - assets/etek_geprek.png
+    - assets/geprek_nusantara.png
+    - assets/cindomato.png
+    - assets/oishi.png
